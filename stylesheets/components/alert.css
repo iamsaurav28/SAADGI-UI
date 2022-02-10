@@ -1,0 +1,54 @@
+@import url(/stylesheets/abstract/variables.css);
+@import url(/stylesheets/abstract/color.css);
+@import url(/stylesheets/main.css);
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.text {
+  text-align: center;
+  height: 40px;
+  width: 300px;
+}
+.alert-dark {
+  color: var(--white);
+  background: var(--black);
+}
+
+.alert-light {
+  color: var(--black);
+  background: var(--white);
+  border: 2px solid var(--black);
+}
+
+.alert-red {
+  color: var(--white);
+  background: var(--light-red-alert);
+  border: 1px solid var(--red-alert);
+}
+
+.alert-green {
+  color: var(--white);
+  background: var(--light-green-alert);
+  border: 1px solid var(--green-alert);
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  position: relative;
+  right: 10px;
+}
+.alert-icon {
+  color: var(--black);
+  background: var(--white);
+  border: 2px solid var(--black);
+}
