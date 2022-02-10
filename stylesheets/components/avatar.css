@@ -1,0 +1,49 @@
+@import url(/stylesheets/abstract/variables.css);
+@import url(/stylesheets/abstract/color.css);
+@import url(/stylesheets/main.css);
+
+.avatar-square {
+  border: 0.1rem solid var(--black);
+}
+
+.sm {
+  height: 6rem;
+  width: 10rem;
+}
+
+.md {
+  height: 12rem;
+  width: 20rem;
+}
+
+.lg {
+  height: 20rem;
+  width: 30rem;
+}
+
+.avatar-border {
+  border: 0.1rem solid var(--black);
+  border-radius: 50%;
+}
+
+.sm-circle {
+  height: 6rem;
+  width: 6rem;
+}
+
+.md-circle {
+  height: 10rem;
+  width: 10rem;
+}
+
+.lg-circle {
+  height: 15rem;
+  width: 15rem;
+}
+
+.avatar-box {
+  height: 6rem;
+  width: 12rem;
+  border: 0.2rem solid var(--black);
+  border-radius: 2rem;
+}
