@@ -1,0 +1,49 @@
+@import url(/stylesheets/abstract/variables.css);
+@import url(/stylesheets/abstract/color.css);
+@import url(/stylesheets/main.css);
+
+.img-square {
+  border: 1px solid black;
+}
+
+.sm {
+  height: 100px;
+  width: 200px;
+}
+
+.md {
+  height: 200px;
+  width: 400px;
+}
+
+.lg {
+  height: 300px;
+  width: 600px;
+}
+
+.img-border {
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.sm-circle {
+  height: 50px;
+  width: 50px;
+}
+
+.md-circle {
+  height: 100px;
+  width: 100px;
+}
+
+.lg-circle {
+  height: 300px;
+  width: 300px;
+}
+
+.img-radius {
+  height: 100px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
