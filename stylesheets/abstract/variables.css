@@ -1,0 +1,6 @@
+:root {
+  --light-red-alert: rgb(248, 122, 122);
+  --red-alert: red;
+  --light-green-alert: rgb(122, 248, 139);
+  --green-alert: green;
+}

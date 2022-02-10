@@ -1,7 +1,7 @@
 :root {
   --black: rgb(12, 12, 12);
   --bg-black: rgb(0, 0, 0);
-  --white: rgb(252, 240, 240);
+  --white: rgb(255, 255, 255);
   --bg-wite: rgba(252, 252, 252, 0.966);
   --grey: rgb(168, 164, 164);
   --light-grey: rgb(197, 186, 186);
