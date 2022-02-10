@@ -15,39 +15,39 @@
   height: 40px;
   width: 300px;
 }
-.al-dark {
+.alert-dark {
   color: var(--white);
   background: var(--black);
 }
 
-.al-light {
+.alert-light {
   color: var(--black);
   background: var(--white);
   border: 2px solid var(--black);
 }
 
-.al-red {
+.alert-red {
   color: var(--white);
   background: var(--light-red-alert);
   border: 1px solid var(--red-alert);
 }
 
-.al-green {
+.alert-green {
   color: var(--white);
   background: var(--light-green-alert);
   border: 1px solid var(--green-alert);
 }
 
-.al {
+.alert {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-i {
+.icons {
   position: relative;
   right: 10px;
 }
-.al-icon {
+.alert-icon {
   color: var(--black);
   background: var(--white);
   border: 2px solid var(--black);
