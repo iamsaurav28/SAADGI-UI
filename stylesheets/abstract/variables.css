@@ -3,4 +3,8 @@
   --red-alert: red;
   --light-green-alert: rgb(122, 248, 139);
   --green-alert: green;
+  --highlight: #f9e506;
+
+  --hover-bg: rgb(255, 0, 68);
+  --hover: #51fb42;
 }
