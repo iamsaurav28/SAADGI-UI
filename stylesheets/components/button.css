@@ -39,8 +39,8 @@
 /* second button */
 
 .btn-2 {
-  width: 200px;
-  height: 60px;
+  width: 12rem;
+  height: 3.5rem;
   border: none;
   color: var(--black);
   border-radius: 2px;
