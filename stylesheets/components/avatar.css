@@ -3,47 +3,47 @@
 @import url(/stylesheets/main.css);
 
 .avatar-square {
-  border: 1px solid var(--black);
+  border: 0.1rem solid var(--black);
 }
 
 .sm {
-  height: 100px;
-  width: 200px;
+  height: 6rem;
+  width: 10rem;
 }
 
 .md {
-  height: 200px;
-  width: 400px;
+  height: 12rem;
+  width: 20rem;
 }
 
 .lg {
-  height: 300px;
-  width: 600px;
+  height: 20rem;
+  width: 30rem;
 }
 
 .avatar-border {
-  border: 1px solid var(--black);
+  border: 0.1rem solid var(--black);
   border-radius: 50%;
 }
 
 .sm-circle {
-  height: 50px;
-  width: 50px;
+  height: 6rem;
+  width: 6rem;
 }
 
 .md-circle {
-  height: 100px;
-  width: 100px;
+  height: 10rem;
+  width: 10rem;
 }
 
 .lg-circle {
-  height: 300px;
-  width: 300px;
+  height: 15rem;
+  width: 15rem;
 }
 
 .avatar-box {
-  height: 100px;
-  width: 200px;
-  border: 2px solid var(--black);
-  border-radius: 20px;
+  height: 6rem;
+  width: 12rem;
+  border: 0.2rem solid var(--black);
+  border-radius: 2rem;
 }
