@@ -2,8 +2,8 @@
 @import url(/stylesheets/abstract/color.css);
 @import url(/stylesheets/main.css);
 
-.img-square {
-  border: 1px solid black;
+.avatar-square {
+  border: 1px solid var(--black);
 }
 
 .sm {
@@ -21,8 +21,8 @@
   width: 600px;
 }
 
-.img-border {
-  border: 1px solid black;
+.avatar-border {
+  border: 1px solid var(--black);
   border-radius: 50%;
 }
 
@@ -41,9 +41,9 @@
   width: 300px;
 }
 
-.img-radius {
+.avatar-box {
   height: 100px;
   width: 200px;
-  border: 2px solid black;
+  border: 2px solid var(--black);
   border-radius: 20px;
 }
