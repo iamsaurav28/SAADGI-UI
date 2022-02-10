@@ -1,6 +1,10 @@
 :root {
   --light-red-alert: rgb(248, 122, 122);
-  --red-alert: red;
+  --red-alert: rgb(255, 0, 0);
   --light-green-alert: rgb(122, 248, 139);
-  --green-alert: green;
+  --green-alert: rgb(0, 128, 0);
+  --highlight: rgb(226, 241, 6);
+
+  --hover-bg: rgb(255, 0, 68);
+  --hover: rgb(239, 255, 8);
 }
