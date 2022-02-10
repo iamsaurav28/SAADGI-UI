@@ -1,0 +1,81 @@
+@import url(/stylesheets/abstract/variables.css);
+@import url(/stylesheets/abstract/color.css);
+@import url(/Stylesheets/main.css);
+
+.mark {
+  margin: 2rem;
+}
+
+.bedge {
+  position: relative;
+  height: 3rem;
+  width: 3rem;
+  right: 28.8rem;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--red-alert);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.bot {
+  bottom: 35.5rem;
+}
+
+.mail {
+  left: 3.5rem;
+}
+
+.cart {
+  left: 11rem;
+}
+.phone {
+  left: 18rem;
+}
+.insta {
+  left: 25rem;
+}
+
+.hero-img {
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.social {
+  height: 2rem;
+  width: 2rem;
+  border: 0.2rem solid var(--white);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.online {
+  background-color: var(--green-badge);
+  left: 4rem;
+  top: 4.5rem;
+}
+
+.idle {
+  background-color: var(--yellow-badge);
+  left: 14.5rem;
+  top: 4.5rem;
+}
+
+.offline {
+  background-color: var(--red-badge);
+  left: 25rem;
+  top: 4.5rem;
+}
+
+.hero {
+  position: relative;
+  top: 7rem;
+}
