@@ -25,3 +25,6 @@
 .toast-green{
      background: var(--green-alert);
 }
+.cancel{
+     cursor: pointer;
+}
