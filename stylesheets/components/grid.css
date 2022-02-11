@@ -1,0 +1,38 @@
+@import url(/stylesheets/main.css);
+
+.item {
+  background-color: #eee;
+  width: 500px;
+  margin: 30px 0 0 20px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 20px;
+  text-align: center;
+  justify-content: center;
+  grid-auto-flow: row;
+}
+
+.grid-container {
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 100px 100px;
+}
+
+.items1 {
+  background-color: orangered;
+}
+.items2 {
+  background-color: yellowgreen;
+}
+.items3 {
+  background-color: slateblue;
+}
+.items4 {
+  background-color: hotpink;
+}
+.items5 {
+  background-color: royalblue;
+}
+.items6 {
+  background-color: goldenrod;
+}
