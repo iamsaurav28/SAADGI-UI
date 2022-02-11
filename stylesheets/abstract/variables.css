@@ -14,4 +14,11 @@
 
   --bg-blue: rgb(25, 0, 255);
   --badge: rgb(253, 143, 0);
+
+  --grid-item1: rgb(255, 69, 0);
+  --grid-item2: rgb(154, 205, 50);
+  --grid-item3: rgb(106, 90, 205);
+  --grid-item4: rgb(225, 105, 180);
+  --grid-item5: rgb(65, 105, 225);
+  --grid-item6: rgb(218, 165, 32);
 }
