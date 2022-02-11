@@ -1,0 +1,39 @@
+@import url(/Stylesheets/main.css);
+
+.list-container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.basic-list {
+  height: fit-content;
+  width: 5rem;
+  font-size: larger;
+  text-align: center;
+  border-radius: 0.2rem;
+  border: 0.2rem solid var(--badge);
+}
+
+.basic-stack {
+  height: 6rem;
+  width: 25rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: 0.1rem solid var(--bg-black);
+  font-size: larger;
+}
+
+.error-stack {
+  position: relative;
+  left: 5rem;
+  bottom: 4rem;
+}
+
+h3 {
+  position: relative;
+  left: 5rem;
+  bottom: 4rem;
+}
