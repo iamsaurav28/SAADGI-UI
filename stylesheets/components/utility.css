@@ -1,0 +1,10 @@
+@import url(/stylesheets/main.css);
+
+.center-text{
+     position: relative;
+     text-align: center;
+}
+
+.gray-text{
+     color: var(--light-grey);
+}
