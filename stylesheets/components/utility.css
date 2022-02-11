@@ -1,0 +1,17 @@
+@import url(/stylesheets/main.css);
+
+
+.align-left{
+   text-align: left;
+}
+.align-center{
+     text-align: center;
+}
+.align-right{
+     text-align: right;
+   
+}
+
+.gray-text{
+     color: var(--light-grey);
+}
