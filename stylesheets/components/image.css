@@ -1,0 +1,20 @@
+@import url("/stylesheets/main.css");
+body {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+.img-round {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.img-square {
+  border-radius: 2rem;
+}
