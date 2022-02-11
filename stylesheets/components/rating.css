@@ -1,0 +1,16 @@
+@import url(/Stylesheets/main.css);
+
+.check {
+  margin-top: 1rem;
+  position: relative;
+  top: 5rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tick {
+  color: var(--badge);
+}
