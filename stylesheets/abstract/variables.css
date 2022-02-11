@@ -11,4 +11,7 @@
   --green-badge: rgb(65, 224, 65);
   --yellow-badge: rgb(240, 255, 30);
   --red-badge: rgb(241, 10, 10);
+
+  --bg-blue: rgb(25, 0, 255);
+  --badge: rgb(253, 143, 0);
 }
