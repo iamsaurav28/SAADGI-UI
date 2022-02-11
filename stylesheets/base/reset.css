@@ -19,16 +19,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* img,
+img,
 picture,
 video,
 canvas,
 svg,
 iframe {
-  max-width: 100%;s
+  max-width: 100%;
   max-inline-size: 100%;
   block-size: auto;
-} */
+}
 
 input,
 button,
