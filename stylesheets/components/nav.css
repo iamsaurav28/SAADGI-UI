@@ -1,44 +1,13 @@
-@import url(/Stylesheets/main.css);
+@import url(/stylesheets/main.css);
 
-* {
-  list-style: none;
-  text-decoration: none;
-}
-
-.navbar {
-  height: 80px;
-  width: 100%;
-  background: var(--navbar-bg);
-}
-
-.logo {
-  position: relative;
-  left: 40px;
-  top: 20px;
-  font-size: xx-large;
-}
-
-.navbar ul {
-  float: right;
-  margin-right: 20px;
-}
-
-.navbar ul li {
-  list-style: none;
-  margin: 0 8px;
-  display: inline-block;
-  line-height: 80px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: var(--white);
-  font-size: 20px;
+.nav-navbar{
+  background-color: orange;
+  margin: 50px;
   padding: 5px;
+  text-align: center;
 }
 
-.navbar ul li a.active,
-.navbar ul li a:hover {
-  background: var(--red-alert);
-  border-radius: 2px;
+.nav-navbar li{
+  text-decoration: underline;
+  
 }

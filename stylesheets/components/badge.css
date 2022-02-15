@@ -1,17 +1,12 @@
-@import url(/stylesheets/abstract/variables.css);
-@import url(/stylesheets/abstract/color.css);
+
 @import url(/Stylesheets/main.css);
 
 .mark {
   margin: 2rem;
 }
 
-.bedge {
-  position: relative;
-  height: 3rem;
-  width: 3rem;
-  right: 28.8rem;
-}
+
+
 
 .badge {
   display: flex;
@@ -23,29 +18,30 @@
   background-color: var(--red-alert);
   border-radius: 50%;
   position: absolute;
+ 
+
 }
 
-.bot {
-  bottom: 35.5rem;
+ .bot {
+  bottom:29.2rem;
 }
 
 .mail {
-  left: 3.5rem;
+margin-left: 4rem;
 }
 
 .cart {
-  left: 11rem;
+  margin-left: 12rem;
 }
 .phone {
-  left: 18rem;
+margin-left: 19.5rem;
 }
 .insta {
-  left: 25rem;
-}
+  margin-left: 27rem;
+} 
 
 .hero-img {
   height: 100px;
-  width: auto;
   border-radius: 50%;
 }
 
@@ -59,7 +55,7 @@
 
 .online {
   background-color: var(--green-badge);
-  left: 4rem;
+left: 4rem;
   top: 4.5rem;
 }
 
@@ -77,5 +73,7 @@
 
 .hero {
   position: relative;
-  top: 7rem;
+  top: 1rem;
+ 
 }
+

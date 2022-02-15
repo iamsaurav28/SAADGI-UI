@@ -1,10 +1,11 @@
 @import url(/Stylesheets/main.css);
 
-.check {
+.rating-checked {
   margin-top: 1rem;
   position: relative;
   top: 5rem;
-  gap: 2rem;
+ 
+  word-spacing: 3rem;
 }
 
 .tick {

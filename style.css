@@ -1,156 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
 body{
-  overflow-wrap: break-word;
+  font-family: 'Poppins', sans-serif;
+}
+.brand{
+  width: 125px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.wrapper {
-  background: url(/comp-img/nature.jpg) no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-.navbar {
-  height: 80px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.logo {
-  width: 50px;
-  height: auto;
-
-  padding: 20px 100px;
-}
-
-.navbar ul {
-  float: right;
+nav ul li{
+  display: inline-block;
   margin-right: 20px;
 }
 
-.navbar ul li {
-  list-style: none;
-  margin: 0 8px;
+a{
+  text-decoration: none;
+  color: #555;
+}
+p{
+  color: #555;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+  margin-left: 250px;
+}
+
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.col-2 h2{
+  margin-top: -30px;
+}
+
+.btn{
   display: inline-block;
-  line-height: 80px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
+  background:blue;
   color: white;
-  font-size: 20px;
-  padding: 5px;
-  font-family: "roboto", sans-serif;
+  padding: 8px 30px;
+  margin: 30px 10px;
+  border-radius: 30px;
+  transition: 0.5s;
 }
 
-.navbar ul li a.active,
-.navbar ul li a:hover {
-  background: red;
-  border-radius: 2px;
+.btn:hover{
+  background-color: chartreuse;
 }
 
-.wrapper.center {
-  position: absolute;
-  top: 50%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  font-family: sans-serif;
-  user-select: none;
+/* sidebar*/
+
+.w3-sidebar{
+  width:16%;
+  position: relative;
+  bottom: 0.01%;
 }
-.center h1 {
-  color: black;
-  font-size: 40px;
-  font-weight: bold;
-  width: 900px;
+.w3-button{
   text-align: center;
 }
-
-.center h2 {
-  color:black;
-  font-size: 30px;
-  font-weight: bold;
-  width: 885px;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.center .buttons {
-  margin: 35px 280px;
-}
-
-.btn {
-  color: black;
-  background-color: orange;
-  padding: 10px;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.buttons .btn {
-  margin-left: 25px;
-}
-
-.buttons button:hover {
-  background: #cc0000;
-}
-
-.sidebar {
-  position: fixed;
-  left: 0;
-  width: 250px;
-  height: 100%;
-  background: #042331;
-  transition: all 0.5s ease;
-}
-
-.sidebar header {
-  font-size: 22px;
-  color: white;
-  text-align: center;
-  line-height: 70px;
-  background: #063146;
-  user-select: none;
-}
-
-.sidebar ul a {
-  display: block;
-  height: 100%;
-  width: 100%;
-  line-height: 65px;
-  font-size: 20px;
-  color: white;
-  padding-left: 40px;
-  box-sizing: border-box;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  transition: 0.4s;
-}
-
-ul li:hover a {
-  padding-left: 70px;
-}
-
-.sidebar ul a i {
-  margin-right: 16px;
-}
-
-.sidebar:hover {
-  overflow-y: scroll;
-}
-
-.nav-head{
-  position: absolute;
-  left: 50px;
-  top: 15px;
-  color: white;
- font-size:40px;
- font-weight: bolder;  
-}
-.center-txt{
-  color: red;
+.mid{
+  margin-left: 16rem;
 }

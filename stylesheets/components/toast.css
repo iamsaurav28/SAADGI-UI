@@ -27,3 +27,9 @@
 .cancel{
      cursor: pointer;
 }
+
+.code{
+   display: flex;
+   position: relative;
+   left: 20rem;
+}

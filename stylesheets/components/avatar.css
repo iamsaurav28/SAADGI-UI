@@ -1,29 +1,33 @@
-@import url(/stylesheets/abstract/variables.css);
-@import url(/stylesheets/abstract/color.css);
-@import url(/stylesheets/main.css);
+
 
 .avatar-square {
+  position: relative;
+  top: 5rem;
+  left: 1.5rem;
   border: 0.1rem solid var(--black);
 }
 
 .sm {
-  height: 3em;
-  width: 6em;
+  height: 4em;
+  width: 8rem;
 }
 
 .md {
-  height: 12rem;
-  width: 20rem;
+  height: 6rem;
+  width: 10rem;
 }
 
 .lg {
-  height: 20rem;
-  width: 30rem;
+  height: 8rem;
+  width: 14rem;
 }
 
 .avatar-border {
   border: 0.1rem solid var(--black);
   border-radius: 50%;
+  position: relative;
+  top: 4rem;
+  left: 3rem;
 }
 
 .sm-circle {
@@ -32,18 +36,39 @@
 }
 
 .md-circle {
-  height: 10rem;
-  width: 10rem;
+  height: 9rem;
+  width: 9rem;
 }
 
 .lg-circle {
-  height: 15rem;
-  width: 15rem;
+  height: 12rem;
+  width: 12em;
 }
 
 .avatar-box {
-  height: 6rem;
-  width: 12rem;
+  height: 5rem;
+  width: 10rem;
   border: 0.2rem solid var(--black);
-  border-radius: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
+  top: 8rem;
+  left: 3rem;
 }
+.avatar-text{
+  position: relative;
+  top: 6rem;
+  left: 1rem;
+  font-size: 20px;
+}
+
+.avatar-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 25rem;
+  height: 40rem;
+  width: 35rem;
+  background-color: aqua;
+}
+

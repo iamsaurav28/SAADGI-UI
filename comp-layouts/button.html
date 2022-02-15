@@ -1,64 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://kit.fontawesome.com/c4d0bd5372.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css"/>
+    <script src="https://kit.fontawesome.com/c4d0bd5372.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/stylesheets/main.css">
-    <link rel="stylesheet" href="/stylesheets/components/button.css">
-    <link rel="stylesheet" href="style.css">
-     <title>button</title>
-</head>
-<body>
-
-     <div class="sidebar">
-          <header>COMPONENTS</header>
-          <ul>
-              <li><a href="/comp-layouts/alert.html"><i class="fas fa-qrcode tilt"></i>ALERT</a></li>
-              <li><a href="/comp-layouts/avatar.html"><i class="fas fa-qrcode tilt"></i>Avatar</a></li>
-              <li><a href="/comp-layouts/badge.html"><i class="fas fa-qrcode tilt"></i>Badge</a></li>
-              <li><a href="/comp-layouts/button.html"><i class="fas fa-qrcode tilt"></i>Button</a></li>
-              <li><a href="/comp-layouts/card.html"><i class="fas fa-qrcode tilt"></i>Card</a></li>
-              <li><a href="/comp-layouts/image.html"><i class="fas fa-qrcode tilt"></i>Image</a></li>
-              <li><a href="/comp-layouts/input.html"><i class="fas fa-qrcode tilt"></i>Input</a></li>
-              <li><a href="/comp-layouts/list.html"><i class="fas fa-qrcode tilt"></i>List</a></li>
-              <li><a href="/comp-layouts/rating.html"><i class="fas fa-qrcode tilt"></i>Rating</a></li>
-              <li><a href="/comp-layouts/utility.html"><i class="fas fa-qrcode tilt"></i>Utility</a></li>
-              <li><a href="/comp-layouts/nav.html"><i class="fas fa-qrcode tilt"></i>Nav</a></li>
-              <li><a href="/comp-layouts/grid.html"><i class="fas fa-qrcode tilt"></i>Grid</a></li>
-              <li><a href="/comp-layouts/toast.html"><i class="fas fa-qrcode tilt"></i>Toast</a></li>
-               
-          </ul>
-     </div>
-     
-     <div class="alert-header">
-          <h1>ALERT</h1>
-          <h2 class="sm-para">A alert sign is a type of sign which indicates a potential hazard, obstacle, or condition requiring special attention.</h2>
-  
-  
-
-     <div class="btn-hover box">
-          <button class="btn-1"> HOVER ME! </button>
-          <button class="btn-2"> AWESOME </button>
+     <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/style.css"/>
+    <title>button</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+           <div class="navbar">
+                <div class="logo">
+                     <div class="brand">SAADGI UI</div>
+                </div>
+                <nav>
+                    <ul>
+                         <li><a href="/index.html">HOME</a></li>
+                         <li><a href="/document.html">COMP</a></li>
+                         <li><a href="#">ABOUT</a></li>
+                         <li><a href="#">CONTACT</a></li>
+                         <li><a href="/account.html">ACCOUNT</a></li>
+                    </ul> 
+                </nav>
+           </div>
+           
       </div>
-   <div class="btn-container box">
-      <button class="btn">Click Here</button>
-      <button class="btn">Click Here</button>
-      <button class="btn">Click Here</button>
-     </div>
+      </div>
+ 
+      <!---sidebar-->
+      <div class="w3-sidebar w3-light-grey w3-bar-block">
+        <h3 class="w3-bar-item">COMPONENTS</h3>
+        <a href="/comp-layouts/alert.html" class="w3-bar-item w3-button">ALERT</a>
+        <a href="/comp-layouts/avatar.html" class="w3-bar-item w3-button">AVATAR</a>
+        <a href="/comp-layouts/badge.html" class="w3-bar-item w3-button">BADGE</a>
+        <a href="/comp-layouts/button.html" class="w3-bar-item w3-button">BUTTON</a>
+        <a href="/comp-layouts/card.html" class="w3-bar-item w3-button">CARDS</a>
+        <a href="/comp-layouts/grid.html" class="w3-bar-item w3-button">GRID</a>
+        <a href="/comp-layouts/image.html" class="w3-bar-item w3-button">IMAGE</a>
+        <a href="/comp-layouts/input.html" class="w3-bar-item w3-button">INPUT</a>
+        <a href="/comp-layouts/list.html" class="w3-bar-item w3-button">LIST</a>
+        <a href="/comp-layouts/nav.html" class="w3-bar-item w3-button">NAVBAR</a>
+        <a href="/comp-layouts/rating.html" class="w3-bar-item w3-button">RATING</a>
+        <a href="/comp-layouts/toast.html" class="w3-bar-item w3-button">TOAST</a>
+        <a href="/comp-layouts/utility.html" class="w3-bar-item w3-button">UTILITY</a>
+ 
+      </div>
 
-     <div class="btn-link box">
-          <a href="#">www.google.com</a>
-          <a href="#">www.google.com</a>
-          <a href="#">www.google.com</a>
-     </div>
+   
 
-     <div class="icon-button box">
-          <button class="icon"><i class="fas fa-info-circle icons"></i> ERROR</button>
-     </div>
-      
+    <div class="mid">
+      <div class="btn-hover box">
+        <button class="btn-1">HOVER ME!</button>
+        <button class="btn-2">AWESOME</button>
+      </div>
+      <div class="btn-container box">
+        <button class="btn">Click Here</button>
+        <button class="btn">Click Here</button>
+        <button class="btn">Click Here</button>
+      </div>
 
-</body>
+      <div class="btn-link box">
+        <a href="#">www.google.com</a>
+        <a href="#">www.google.com</a>
+        <a href="#">www.google.com</a>
+      </div>
+
+      <div class="icon-button box">
+        <button class="icon">
+          <i class="fas fa-info-circle icons"></i> ERROR
+        </button>
+      </div>
+
+      <pre>
+          <code>
+              <div class="icon-button box">
+                <button class="icon">
+                  <i class="fas fa-info-circle icons"></i> ERROR
+                </button>
+              </div>
+          </code>
+     </pre>
+    </div>
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+    integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+  <script src="/app.js"></script>
+  </body>
 </html>

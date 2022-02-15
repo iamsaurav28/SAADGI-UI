@@ -18,7 +18,7 @@
 
 .basic-stack {
   height: 6rem;
-  width: 25rem;
+  width: 30rem;
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
@@ -28,8 +28,8 @@
 
 .error-stack {
   position: relative;
-  left: 5rem;
-  bottom: 4rem;
+  left: 10rem;
+  bottom: 3.5rem;
 }
 
 h3 {
