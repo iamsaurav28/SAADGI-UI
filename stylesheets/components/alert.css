@@ -1,20 +1,22 @@
-@import url(/stylesheets/abstract/variables.css);
-@import url(/stylesheets/abstract/color.css);
-@import url(/stylesheets/main.css);
 
-.container {
+@import url(/stylesheets/main.css); 
+
+
+.alt{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 5px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 15rem;
+  width: 60rem;
+  background-color: var(--dark-grey);
+  gap: 5px;
 }
 
-.text {
-  text-align: center;
-  height: 40px;
-  width: 300px;
-}
+
+
 .alert-dark {
   color: var(--white);
   background: var(--black);
@@ -42,13 +44,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.icons {
-  position: relative;
-  right: 10px;
+  padding: 0.7rem 1.5rem;
 }
 .alert-icon {
   color: var(--black);
   background: var(--white);
   border: 2px solid var(--black);
+
 }
+
+
