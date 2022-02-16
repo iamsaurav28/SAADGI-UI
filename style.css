@@ -1,4 +1,10 @@
 
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -81,14 +87,40 @@ p{
 }
 
 /* sidebar*/
-
-.w3-sidebar{
-  width:16%;
-  position: relative;
-  bottom: 0.01%;
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  background: #042331;
+  bottom: 0.1rem;
+  overflow-y: scroll;
 }
-.w3-button{
+
+.sidebar header {
+  font-size: 22px;
+  color: white;
   text-align: center;
+  line-height: 70px;
+  background: #063146;
+  user-select: none;
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.4s;
+}
+  
+.sidebar-btn:hover  {
+  padding-left: 120px;
 }
 .mid{
   margin-left: 16rem;

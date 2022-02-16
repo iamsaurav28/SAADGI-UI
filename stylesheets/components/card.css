@@ -1,5 +1,4 @@
 
-@import url(/Stylesheets/main.css);
 
 .card-container {
   height: 50rem;
@@ -76,7 +75,7 @@
 }
 
 .price-tag{
-  margin-top: -1rem;
+  margin-top: rem;
   font-size: 20px;
   font-weight: bold;
 }
@@ -85,12 +84,12 @@
   font-weight: bold;
   font-size: 16px;
   text-decoration: line-through;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   margin-left: -4.9rem;
 }
 
 .shoe-red{
-  margin-top: -6rem;
+  margin-top: -5.5rem;
   font-weight: bold;
 }
 .shoe-size{
