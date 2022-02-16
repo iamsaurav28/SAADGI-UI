@@ -1,5 +1,4 @@
-@import url(/stylesheets/abstract/variables.css);
-@import url(/stylesheets/abstract/color.css);
+
 @import url(/stylesheets/main.css);
 
 .btn-hover {
@@ -89,5 +88,10 @@
 .icon {
   padding: 0.5rem 1rem;
   background-color: var(--white);
+  border: 0.1rem solid var(--black);
+  left: 0.5rem;
+}
+
+.icon-button{
   border: 0.1rem solid var(--black);
 }
