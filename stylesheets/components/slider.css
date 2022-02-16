@@ -1,0 +1,16 @@
+@import url(/stylesheets/main.css);
+
+.slider-container{
+     margin-top: 10rem;
+     margin: 5rem;
+     padding: 4rem;
+     background: red;
+}
+
+.slider{
+     margin-left: 5rem;
+     width: 35rem;
+}
+.volume-slider{
+     width: 34rem;
+}
