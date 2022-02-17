@@ -1,0 +1,36 @@
+
+.mdl{
+     height: 6rem;
+     width: 25rem;
+     border: 0.1rem solid var(--black);
+}
+
+.wtsap-modal {
+     
+     margin: 6rem;
+}
+
+.insta-modal{
+   margin-left: 6rem;
+}
+
+.modal-text{
+     font-size: 0.8rem;
+     margin-top: -4rem;
+     margin-left: 7rem;
+}
+
+.whatsapp-icon{
+     margin-top: 0.3rem;
+     margin-left: 2rem;
+}
+.modal-btn{
+     margin-top: 0.5rem;
+     margin-left: 12rem;
+}
+
+.modal-btn a{
+     color: var(--white);
+     background-color: var(--black);
+     padding: 0.3rem 1.2em;
+}
