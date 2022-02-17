@@ -66,9 +66,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
   position: relative;
-  left: 25rem;
+  left: 10rem;
   height: 40rem;
   width: 35rem;
-  background-color: aqua;
+
 }
 
