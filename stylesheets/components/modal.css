@@ -1,13 +1,21 @@
 
-
-.basic-modal{
+.mdl{
      height: 6rem;
      width: 25rem;
      border: 0.1rem solid var(--black);
-     margin: 5rem;
 }
+
+.wtsap-modal {
+     
+     margin: 6rem;
+}
+
+.insta-modal{
+   margin-left: 6rem;
+}
+
 .modal-text{
-     font-size: 13px;
+     font-size: 0.8rem;
      margin-top: -4rem;
      margin-left: 7rem;
 }
