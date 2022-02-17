@@ -1,10 +1,13 @@
-@import url(/Stylesheets/main.css);
 
+.rate-container{
+  height: 20rem;
+  margin-left: 10rem;
+}
 .rating-checked {
   margin-top: 1rem;
+  margin-bottom: 2rem;
   position: relative;
   top: 5rem;
- 
   word-spacing: 3rem;
 }
 
