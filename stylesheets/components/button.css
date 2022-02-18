@@ -91,3 +91,7 @@
   border: 0.1rem solid var(--black);
   left: 0.5rem;
 }
+
+.text-btn{
+  margin-left: 25rem;
+}

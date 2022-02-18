@@ -3,7 +3,7 @@
   margin: 2rem;
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .basic-list {
@@ -35,4 +35,10 @@ h3 {
   position: relative;
   left: 5rem;
   bottom: 4rem;
+}
+.list-name{
+  margin-left: -3rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: var(--bg-black);
 }

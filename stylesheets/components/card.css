@@ -14,6 +14,12 @@
   background: var(--light-grey);
 
 }
+.overlay-card{
+  height: 20rem;
+  width: 15rem;
+  background: var(--light-grey);
+
+}
 .card-doc {
   height: 21.5rem;
   width: 15rem;
@@ -66,6 +72,9 @@
   margin-top: -0.5rem;
   font-size: 25px;
   font-weight: bold;
+}
+.overlay{
+  margin-top: -2rem;
 }
 
 .shoe-card{
@@ -123,6 +132,11 @@
 
 .cardbox {
   box-shadow: 7px 12px var(--dark-grey);
+}
+
+.card-names{
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 /* 
 @import url(/Stylesheets/main.css);

@@ -9,3 +9,9 @@
 .gray-text{
      color: var(--light-grey);
 }
+
+.define{
+     font-size: 1.5rem;
+     color: black;
+     background: var(--light-grey);
+}
