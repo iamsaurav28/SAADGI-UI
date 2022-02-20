@@ -10,8 +10,9 @@
      color: var(--light-grey);
 }
 
-.define{
+.utility-define{
+     margin-top: 3rem;
      font-size: 1.5rem;
-     color: black;
-     background: var(--light-grey);
+     background-color: wheat;
+ 
 }

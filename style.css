@@ -15,6 +15,7 @@ body{
   display: flex;
   align-items: center;
   padding: 20px;
+  background-color: var(--light-grey);
 }
 nav{
   flex: 1;
@@ -86,6 +87,12 @@ p{
   background-color: chartreuse;
 }
 
+
+.define{
+  margin-top: 3rem;
+  color: black;
+}
+
 /* sidebar*/
 .sidebar {
   position: fixed;
@@ -132,7 +139,7 @@ p{
 }
 
 .footer{
-  background-color: #ff523b;
+  background-color: orangered;
   height: 150px;
   width: 100%;
   position: absolute;
