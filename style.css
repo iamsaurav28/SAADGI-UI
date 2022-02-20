@@ -130,3 +130,31 @@ p{
 .mid{
   margin-left: 16rem;
 }
+
+.footer{
+  background-color: #ff523b;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+}
+
+.webmaker{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+}
+
+.social-media{
+ background-color: white;
+ padding: 5px;
+ margin: 4px 20px;
+ color: blue;
+ border-radius: 5px;
+}
+
+.footer-social{
+  text-align: center;
+  margin-top: 60px;
+}
+
