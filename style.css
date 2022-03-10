@@ -165,3 +165,150 @@ p{
   margin-top: 60px;
 }
 
+@media screen and (max-width:480px){
+  *{
+    box-sizing: border-box;
+  }
+  html,body{
+  
+    height: 100%;
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+
+  }
+
+  .navbar{
+    align-items: center;
+    padding: 10px 20px;
+    
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+   
+  }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+  }
+  .brand{
+    width: 125px;
+    margin-left: 25px;
+    
+  }
+
+  .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+  }
+  
+  .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+  }
+  
+  .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    margin-left: 0px
+  }
+
+  .sidebaricon{
+    background: #042331;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    z-index: 20;
+    top: 22px;
+    left: 15px;
+    cursor: pointer;
+  }
+
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    margin-top: 60px;
+    background: #042331;
+    bottom: 0.1rem;
+    overflow-y: scroll;
+    transform: translateX(-150px);
+    transition: transform 250ms ease-in-out;
+    z-index: 1;
+  }
+  #opensidebar:checked ~ .sidebar{
+    transform: translateX(0px);
+  }
+  #opensidebar{
+    display: none;
+  }
+
+  
+
+  .sidebar-scroller{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+  .spinner.middle,
+  .spinner.bottom{
+    margin-top: 3px;
+  }
+  
+   .sidebar header {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+  }
+  
+  .sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 14px;
+    color: white;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.4s;
+  } 
+    
+  .sidebar-btn:hover  {
+    padding-left: 70px;
+    color: orangered;
+  }
+
+  .mid{
+    margin-left: 0rem;
+  }
+  
+  
+
+}

@@ -1,7 +1,6 @@
 
 
 .avatar-square {
-  position: relative;
   top: 5rem;
   left: 1.5rem;
   border: 0.1rem solid var(--black);
@@ -25,7 +24,6 @@
 .avatar-border {
   border: 0.1rem solid var(--black);
   border-radius: 50%;
-  position: relative;
   top: 4rem;
   left: 3rem;
 }
@@ -50,12 +48,10 @@
   width: 10rem;
   border: 0.2rem solid var(--black);
   border-radius: 0.5rem;
-  position: relative;
   top: 8rem;
   left: 3rem;
 }
 .avatar-text{
-  position: relative;
   top: 6rem;
   left: 1rem;
   font-size: 20px;
@@ -65,10 +61,86 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  position: relative;
   left: 10rem;
   height: 40rem;
   width: 35rem;
 
 }
 
+@media screen and (max-width:480px){
+
+  
+
+.avatar-square {
+  top: 5rem;
+  left: 1.5rem;
+  border: 0.1rem solid var(--black);
+
+}
+
+.sm {
+  height: 2rem;
+  width: 4rem;
+}
+
+.md {
+  height: 4rem;
+  width: 6rem;
+}
+
+.lg {
+  height: 6rem;
+  width: 8rem;
+}
+
+.avatar-border {
+
+  border: 0.1rem solid var(--black);
+  border-radius: 50%;
+  top: 4rem;
+  left: 3rem;
+}
+
+.sm-circle {
+  height: 4rem;
+  width: 4rem;
+}
+
+.md-circle {
+  height: 6rem;
+  width: 6rem;
+}
+
+.lg-circle {
+  height: 9rem;
+  width: 9rem;
+}
+
+.avatar-box {
+  height: 3rem;
+  width: 6rem;
+  border: 0.2rem solid var(--black);
+  border-radius: 0.5rem;
+  top: 5rem;
+  left: 3rem;
+  margin-bottom: 15rem;
+}
+.avatar-text{
+  top: 6rem;
+  left: 1rem;
+  font-size: 15px;
+}
+
+  .avatar-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    left: 0rem;
+    height: 20rem;
+    width: 20rem;
+    margin-left: 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  
+  }
+}

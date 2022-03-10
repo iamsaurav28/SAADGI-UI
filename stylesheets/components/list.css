@@ -42,3 +42,51 @@ h3 {
   font-size: 1.2rem;
   color: var(--bg-black);
 }
+
+@media screen and (max-width:480px){
+  .list-container {
+    margin: 2rem;
+    display: flex;
+  flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .basic-list {
+    height: fit-content;
+    width: 6rem;
+    font-size: large;
+    text-align: center;
+    border-radius: 0.2rem;
+    border: 0.2rem solid var(--badge);
+  }
+  
+  .basic-stack {
+    height: 6rem;
+    width: 24rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--bg-black);
+    font-size: larger;
+  }
+  .error-stack {
+    position: relative;
+    left: 6rem;
+    bottom: 3.5rem;
+  }
+  
+  h3 {
+    position: relative;
+    left: 4rem;
+    bottom: 3.5rem;
+    font-size: 18px;
+  }
+  .list-name{
+    margin-left: 4rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: var(--bg-black);
+  }
+  
+
+}

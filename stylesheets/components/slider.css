@@ -13,3 +13,21 @@
 .volume-slider{
      width: 34rem;
 }
+
+@media screen and (max-width:480px){
+     .slider-container{
+          margin-top: 1rem;
+          margin: 0rem;
+          padding: 0rem;
+     }
+     
+     .slider{
+          margin-top: 3rem;
+          margin-left: 4.5rem;
+          width: 20rem;
+     }
+     .volume-slider{
+          width: 20rem;
+     }
+
+}

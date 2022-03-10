@@ -52,5 +52,19 @@
 
 }
 
+@media screen and (max-width:480px){
+  .alt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25rem;
+    width: 27rem;
+    background-color: var(--dark-grey);
+    gap: 5px;
+  }
+}
 
 

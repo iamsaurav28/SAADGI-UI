@@ -5,8 +5,6 @@
 }
 
 
-
-
 .badge {
   display: flex;
   justify-content: center;
@@ -17,16 +15,16 @@
   background-color: var(--red-alert);
   border-radius: 50%;
   position: absolute;
- 
-
 }
 
  .bot {
-  bottom:31.2rem;
+  bottom:31rem;
+
 }
 
 .mail {
 margin-left: 4rem;
+
 }
 
 .cart {
@@ -73,6 +71,83 @@ left: 4rem;
 .hero {
   position: relative;
   top: 1rem;
+  z-index: -1;
  
+}
+
+@media screen and (max-width:480px){
+  
+
+.badge {
+  display: flex;
+  color: var(--white);
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--red-alert);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.mark {
+  margin: 1rem;
+}
+
+.bot {
+  bottom:33rem;
+}
+
+.mail {
+margin-left: 3rem;
+}
+
+.cart {
+  margin-left: 9.5rem;
+}
+.phone {
+margin-left: 14.5rem;
+}
+.insta {
+  margin-left: 20rem;
+} 
+
+
+.hero-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.social {
+  height: 2rem;
+  width: 2rem;
+  border: 0.2rem solid var(--white);
+  border-radius: 50%;
+
+}
+
+.online {
+  background-color: var(--green-badge);
+left: 4rem;
+  top: 4.5rem;
+}
+
+.idle {
+  background-color: var(--yellow-badge);
+  left: 12.5rem;
+  top: 4.5rem;
+}
+
+.offline {
+  background-color: var(--red-badge);
+  left: 21rem;
+  top: 4.5rem;
+}
+
+.hero {
+  top: 1rem;
+ 
+}
+
+
+
 }
 

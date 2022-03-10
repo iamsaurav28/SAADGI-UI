@@ -10,3 +10,13 @@
   text-decoration: underline;
   
 }
+
+@media screen and (max-width:480px){
+  .nav-navbar{
+    background-color: orange;
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+  }
+}

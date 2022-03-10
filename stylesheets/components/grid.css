@@ -41,3 +41,30 @@
 .items6 {
   background-color: goldenrod;
 }
+
+@media screen and (max-width:480px){
+  .item {
+    background-color: var(--light-grey);
+    height: 15rem;
+    width: 24rem;
+    margin: 2rem 0 0 0.5rem;
+    display: grid;
+    grid-template-columns: 8rem 8rem 8rem;
+    grid-template-rows: 5rem 5rem 5rem;
+    grid-gap: 10px;
+    grid-auto-flow: row;
+    margin-left: 1.5rem;
+  
+  }
+.grid-container {
+  grid-template-columns: 8rem 8rem;
+  grid-template-rows:5rem 5rem;
+}
+
+.grid-contain{
+  height: 23rem;
+}
+.grid-txt{
+  font-size: 0.8rem;
+}
+}
